@@ -3,26 +3,27 @@
 <head>
 	<title> Calculadora </title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<div class="calculadora">
 		<input type="text" name="resultado" id="resultado">
-		<input type="button" name="adicao" id="ADICAO" value ="+" onclick="calc(1)">
-		<input type="button" name="subtracao" id="SUBTRACAO" value ="-" onclick="calc(1)">
-		<input type="button" name="multiplicacao" id="MULTIPLICACAO" value ="x" onclick="calc(1)">
-		<input type="button" name="divisao" id="DIVISAO" value ="/" onclick="calc(1)">
-		<input type="button" name="igual" id="IGUAL" value ="=" onclick="calc(1)">
-		<input type="button" name="um" id="UM" value ="1" onclick="calc(1)">
-		<input type="button" name="dois" id="DOIS" value ="2" onclick="calc(1)">
-		<input type="button" name="tres" id="TRES" value ="3" onclick="calc(1)">
-		<input type="button" name="quatro" id="QUATRO" value ="4" onclick="calc(1)">
-		<input type="button" name="cinco" id="CINCO" value ="5" onclick="calc(1)">
-		<input type="button" name="seis" id="SEIS" value ="6" onclick="calc(1)">
-		<input type="button" name="sete" id="SETE" value ="7" onclick="calc(1)">
-		<input type="button" name="oito" id="OITO" value ="8" onclick="calc(1)">
-		<input type="button" name="nove" id="NOVE" value ="9" onclick="calc(1)">
-		<input type="button" name="zero" id="ZERO" value ="0" onclick="calc(1)">
-		<input type="button" name="clear" id="CLEAR" value ="CLS" onclick="calc(1)">
+		<input type="button" name="adicao" id="ADICAO" value ="+" onclick="soma()">
+		<input type="button" name="subtracao" id="SUBTRACAO" value ="-" onclick="subtracao()">
+		<input type="button" name="multiplicacao" id="MULTIPLICACAO" value ="x" onclick="multiplicacao()">
+		<input type="button" name="divisao" id="DIVISAO" value ="/" onclick="divisao()">
+		<input type="button" name="igual" id="IGUAL" value ="=" onclick="igual()">
+		<input type="button" name="um" id="UM" value ="1" onclick="one(1)">
+		<input type="button" name="dois" id="DOIS" value ="2" onclick="two(2)">
+		<input type="button" name="tres" id="TRES" value ="3" onclick="three(3)">
+		<input type="button" name="quatro" id="QUATRO" value ="4" onclick="four(4)">
+		<input type="button" name="cinco" id="CINCO" value ="5" onclick="five(5)">
+		<input type="button" name="seis" id="SEIS" value ="6" onclick="six(6)">
+		<input type="button" name="sete" id="SETE" value ="7" onclick="seven(7)">
+		<input type="button" name="oito" id="OITO" value ="8" onclick="eight(8)">
+		<input type="button" name="nove" id="NOVE" value ="9" onclick="nine(9)">
+		<input type="button" name="zero" id="ZERO" value ="0" onclick="zero(0)">
+		<input type="button" name="clear" id="CLEAR" value ="CLS" onclick="cls()">
 
 	</div>
 </body>
